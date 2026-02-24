@@ -40,3 +40,24 @@ input{
     color: bisque;
 
 }
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('bg2.jpg');  
+    background-size: cover;           
+    background-position: center;      
+    background-repeat: no-repeat;     
+    background-attachment: fixed;     
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.4);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
